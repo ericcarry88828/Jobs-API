@@ -9,7 +9,7 @@ NOTE: This project does not implement a frontend client. The backend web service
 ## Goals
 The goals of this project are to:
 - Demonstrate RESTful APIs and their best practices and conventions
-- Demonstrate CRUD operations using an Object Relational Model (ORM)
+- Demonstrate CRUD operations using an Object-Document Mapping (ODM)
 - Implement JSON Web Token (JWT) for user authentication and authorization
 - Handle common errors and provide meaningful error responses for better user experience
 
