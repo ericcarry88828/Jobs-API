@@ -1,0 +1,21 @@
+services:
+  mongo_db:
+    container_name: jobs_databse
+    image: mongo:latest
+    # If you want to access the container, just uncomment this:
+    # ports:
+    #   - "27017:27017"
+    restart: always
+    volumes:
+      - mongo_db:/data/db
+  api:
+    build: .
+    ports:
+      - "${PORT}:${PORT}"
+    env_file:
+      - .env
+    depends_on:
+      - mongo_db
+
+volumes:
+  mongo_db: {}
