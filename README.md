@@ -1,4 +1,5 @@
-# Blogging Platform API
+# Jobs-API
+
 The Jobs API is a project designed as a RESTful API system. 
 It requires users, such as HR specialists, to register an account before logging in.
 Once logged in, users can perform CRUD (Create, Read, Update, Delete) operations on candidates' interview statuses.
